@@ -2,3 +2,23 @@
 height: 100vh;
 
 }
+.responsive-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px; /* Base font size for larger screens */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+@media (max-width: 480px) {
+    .responsive-input {
+      font-size: 12px; /* Further smaller font size */
+      padding: 6px;    /* Compact padding */
+    }
+  }
+  @media (max-width: 768px) {
+    .responsive-input {
+      font-size: 14px; /* Slightly smaller font size */
+      padding: 8px;    /* Reduce padding */
+    }
+  }
