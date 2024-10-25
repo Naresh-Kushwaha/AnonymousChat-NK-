@@ -15,7 +15,7 @@ public class MessageController {
     @SendTo("/topic/return-to")
     public Message getContent(@RequestBody Message message){
         try{
-            Thread.sleep(2000);
+            Thread.sleep(1000);
 
 
         }catch(InterruptedException e){
