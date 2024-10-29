@@ -14,13 +14,13 @@ public class MessageController {
     //send message to all who all are subscribed to the bleow url
     @SendTo("/topic/return-to")
     public Message getContent(@RequestBody Message message){
-        try{
-            Thread.sleep(1000);
+        // try{
+        //     Thread.sleep(1000);
 
 
-        }catch(InterruptedException e){
+        // }catch(InterruptedException e){
 
-        }
+        // }
         return message;
     }
 }
